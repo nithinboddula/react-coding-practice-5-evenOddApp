@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 26px;
+  color: #0f172a;
+}
+
+.result {
+  font-size: 16px;
+  color: #334155;
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+  color: #1e293b;
+  background-color: #ffffff;
+  border: 0px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.note {
+  font-size: 12px;
+  color: #334155;
+}
